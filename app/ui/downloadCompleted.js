@@ -2,7 +2,6 @@ const html = require('choo/html');
 const assets = require('../../common/assets');
 
 module.exports = function(state) {
-  const btnText = state.user.loggedIn ? 'okButton' : 'sendYourFilesLink';
   return html`
     <div
       id="download-complete"

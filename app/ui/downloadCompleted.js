@@ -14,14 +14,6 @@ module.exports = function(state) {
       <svg class="my-8 h-48 text-primary">
         <use xlink:href="${assets.get('completed.svg')}#Page-1" />
       </svg>
-      <p
-        class="text-grey-80 leading-normal dark:text-grey-40 ${state.user
-          .loggedIn
-          ? 'hidden'
-          : ''}"
-      >
-        ${state.translate('trySendDescription')}
-      </p>
     </div>
   `;
 };
